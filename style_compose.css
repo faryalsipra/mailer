@@ -1,0 +1,46 @@
+#div_header {
+    text-align: center;
+    background: url(Logo.jpg) no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    height: 25%;
+    width: 100px;
+    position: absolute;
+    left: 45%;
+}
+#div_body {
+    position: fixed;
+    top:25%;
+    left:0px;
+    text-align: left;
+    background-color: lightgray;
+    color: black;
+    height: auto;
+    width: 100%;
+    overflow: scroll;
+}
+#txtbox_parameters{
+
+    width: 50%;
+}
+#txtarea_body{
+
+    width: 100%;
+}
+#btn_send {
+    position: relative;
+    left: 35%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+
+body {
+    background-color: white;
+}
+

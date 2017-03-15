@@ -1,0 +1,88 @@
+#div_banner
+{
+    position: fixed
+    top:0px;
+    left: 0px;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+
+}
+
+#div_header_img {
+    text-align: center;
+    background: url(gmail1.jpg) no-repeat;
+    background-size: 400px 200px;
+    background-position: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    top: 5px;
+    left: 30px;
+    z-index: 0;
+}
+#div_sidebar {
+    position: fixed;
+    top:145px;
+    left: 0px;
+    background: url(Sidebar.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    height: 80%;
+    width: 15%;
+    }
+#searchbox {
+    position: relative;
+    top:105px;
+    left: 5px;
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 20%;
+}
+#btn_search {
+    position: relative;
+    top:105px;
+    left: 10px;
+    height: 25px;
+}
+#btn_logout {
+    position: relative;
+    top:2px;
+    left: 850px;
+    height: 25px;
+}
+
+#btn_sidebar {
+    position: relative;
+    top:25%;
+    left: 0px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+#div_body {
+    background-color: transparent;
+    color: black;
+    position: relative;
+    left: 15%;
+    top: 142px;
+    height: 80%;
+    width: 85%;
+    z-index: 1;
+    overflow: scroll;
+
+}
+#div_container{
+     left: 0px;
+    top:0px;
+}
+body {
+    background-color: white;
+}
